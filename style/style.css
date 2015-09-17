@@ -1,0 +1,26 @@
+#username
+{
+	font-size: 3.5em;
+}
+
+#jobTitle
+{
+	font-size: 2em;
+	color: #084ba9;
+	margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+header
+{
+	margin-bottom: 10px;
+}
+
+footer
+{
+	margin: 3em 0;
+    text-align: center;
+    color:#999;
+    border-top:1px solid #ddd;
+    padding: 2em 0;
+}
