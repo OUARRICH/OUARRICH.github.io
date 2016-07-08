@@ -4,49 +4,114 @@
     <meta charset="UTF-8">
     <title>CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style/responsive.css">
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <header>
-          <h1 id="username">OUARRICH Said</h1>
-          <div>
-            <div id="jobTitle">
-              Developpeur Javascript & C#
-            </div>
-            <ul class="nav nav-tabs">
-              <li role="presentation" class="active"><a href="#">Accueil</a></li>
-              <li role="presentation"><a href="#">Expériences</a></li>
-              <li role="presentation"><a href="#">Formations</a></li>
-              <li role="presentation"><a href="#">Compétences</a></li>
-              <li role="presentation"><a href="#">Loisirs</a></li>
-              <li role="presentation"><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </header>
+    <header>
+      <div class="header_wrapper">
+        <div class="title">
+          <h1 class="name">Said Ouarrich</h1>
+          <h3 class="job">Javascript Developer</h3>
+        </div>
+        <div>
+          <ul class="social">
+            <li id="github"><a href="#"></a></li>
+            <li id="linkedin"><a href="#"></a></li>
+            <li id="google"><a href="#"></a></li>
+          </ul>
+        </div>
       </div>
-      <section class="row">
-        <aside class="col-md-3">
-          <img src="img/couverture.JPG" class="img-responsive img-rounded">
-          Ciliciam vero, quae Cydno amni exultat, Tarsus nobilitat, urbs perspicabilis hanc condidisse Perseus memoratur, Iovis filius et Danaes, vel certe ex Aethiopia profectus Sandan quidam nomine vir opulentus et nobilis et Anazarbus auctoris vocabulum referens, et Mopsuestia vatis illius domicilium Mopsi, quem a conmilitio Argonautarum cum aureo vellere direpto redirent, errore abstractum delatumque ad Africae litus mors repentina consumpsit, et ex eo cespite punico tecti manes eius heroici dolorum varietati medentur plerumque sospitales.
-        </aside>
-        <div class="col-md-9">
-          Martinus agens illas provincias pro praefectis aerumnas innocentium graviter gemens saepeque obsecrans, ut ab omni culpa inmunibus parceretur, cum non inpetraret, minabatur se discessurum: ut saltem id metuens perquisitor malivolus tandem desineret quieti coalitos homines in aperta pericula proiectare.
+    </header>
 
-          Quam ob rem cave Catoni anteponas ne istum quidem ipsum, quem Apollo, ut ais, sapientissimum iudicavit; huius enim facta, illius dicta laudantur. De me autem, ut iam cum utroque vestrum loquar, sic habetote.
+    <!-- <nav>
+      
+    </nav> -->
 
-          Quam ob rem ut ii qui superiores sunt submittere se debent in amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione non modo verbis sed etiam opere levandi sunt.
+    <main class="cv">
+      <section class="perso_prof">
+        <h3>Personal Profile</h3>
+          <img class="portrait-photo">
+          <p>
+            Hi, I’m Said, an enthusiastic and self-motivated Javascript developer from Morocco. I am currently working at 
+            <a href="http://www.sage.com">Sage</a> and I am participating on the <span>Sage X3 ERP</span> development.
+          </p>
+          <p>
+            I know how to build Web Hybrid Applications that can run in web navigators and mobile phones using Javascript based Frameworks such as <span>AngularJS</span>. I have experience in <span>HTML(5), CSS(3), LESS, Sass, jQuery, Javascript, GitHub and Agile</span>. I am passionate about the latest web technologies and writing great code.
+          </p>
+          <p>
+            I am looking for opportunities abroad. You can call me on <a href="tel:+212642289810"><span>+212 6 42 28 98 10</span></a> or email me at <a href="mailto:warichsaid@gmail.com">warichsaid@gmail.com</a> or use the social networks links at the top of the page to find out more about me.
+          </p>
+          <p>
+            You can also download a copy of my CV in <a id="cv_docx">Word format (.docx)</a> or as a <a id="cv_pdf">PDF file (.pdf)</a>.
+          </p>
+      </section>
+      <section class="skills">
+        <h3>Summary Skills</h3>
+        <ul class="list_1">
+          <li>JavaScript</li>
+          <li>HTML(5)</li>
+          <li>Css(3)</li>
+          <li>JQUERY</li>
+          <li>AngularJS</li>
+          <li>RequireJS</li>
+          <li>BackboneJS</li>
+          <li>NodeJS</li>
+        </ul>
+        <ul class="list_2">
+          <li>Test Driven Development</li>
+          <li>Cross browser compatibility</li>
+          <li>Agile SCRUM</li>
+          <li>Responsive Design</li>
+          <li>W3C Standards</li>
+          <li>LESS</li>
+          <li>SASS</li>
+          <li>Github</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Employment History</h3>
+        <div>
+            <h4>October 2013 – Present</h4>
+            <h5>Sage - <span><a href="http://www.sage.com/">www.sage.com</a></span></h5>
+            <h6>Front End Developer</h6>
+            <div class="history_detail">
+              <p>
+                HTML(5), CSS(3), Javascript, AngularJS, Bower, Responsive Design, Grunt, Protractor, RequireJS, BackboneJS, Karma, Jasmine, Cordova.
+              </p>
+              <p>
+                I worked with a team of eight on building the <span>Sage Customer View</span> mobile application using AngularJS. <a href="https://www.youtube.com/watch?v=U3SPWghg8og">Here</a> is the windows version. The application can run also on Android and iOS operating systems.
+              </p>
+              <p>
+                Write Once, Run everywhere. This is what we have worked on alongside front-ent developers to build all application modules in a responsive way that goes with each platform specification. Today the application is deployed on six countries stores.
+              </p>
+            </div>
         </div>
       </section>
+      <section class="education">
+        <h3>Education</h3>
+        <p class="schools">Diploma in Software Engineering</p>
+        <span>Institut National des Postes et Télécommunications, RABAT, Morocco</span><br>
+        <span>September 2010 to June 2013</span>
 
-        <footer class="row">
-          CopyRight Ouarrich Said @2015
-        </footer>
-    </div>
+        <p>Engineer's Degree<br>
+        Secondary Field: Software Quality Assurance</p>
+      </section>
+      <section>
+        <h3>Interests</h3>
+        <p>
+            When I’m not coding I can be found with my friends playing football or traveling somewhere to discover the mysteries of nature.
+
+            I love reading technical issues and being updated with the technology news.
+        </p>
+      </section>
+    </main>
+    
+    <footer>
+      © copyright Said Ouarrich, <date id="currentYear"></date>
+    </footer>
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
 
