@@ -1,0 +1,43 @@
+.header-wrapper{
+	box-shadow: 0px 0px 2em #A99D9D;
+	z-index:1000;
+    padding: 17px 0;
+
+	.name, .job{
+		text-transform: lowercase;
+	}
+    .name{
+	    font-size: 3.4em;
+	    font-family: Lobster,Georgia,Times,"Times New Roman",serif;
+    }
+    .job{
+		font-size: 22px;
+    	font-weight: 500;
+    }
+    .social{
+    	margin-top: 11px;
+    	li{
+			display: inline-block;
+		    width: 50px;
+		    height: 50px;
+		    border-radius: 50%;
+		    margin-left: 15px;
+		    cursor: pointer;
+		    opacity: .4;
+		    background: no-repeat 0px 0px;
+		    background-size: 50px 50px;
+		}
+		li:hover{
+			opacity: 1;
+		}
+		#github{
+			background-image: url(../img/github.png);
+		}
+		#linkedin{
+			background-image: url(../img/linkedin.png);
+		}
+		#google{
+			background-image: url(../img/google.png);
+		}
+    }
+}

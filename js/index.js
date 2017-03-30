@@ -1,10 +1,12 @@
+/* global $*/
+
 (function(w){
 
-	w.addEventListener('load', init);
+	w.addEventListener("load", init);
 	
 	function init(){
 		var date = new Date(),
-		currentYear = document.getElementById("currentYear");
+			currentYear = document.getElementById("currentYear");
 
 		/*Init the current year in the footer*/
 		date = date.getFullYear();
@@ -12,15 +14,12 @@
 
 		/* download Pdf and docx version of CV*/
 		$("a#cv_docx").attr({
-			target: '_blank',
-			href: '/doc/OUARRICH SAID.docx'
+			target: "_blank",
+			href: "/doc/OUARRICH SAID.docx"
 		});
 		$("a#cv_pdf").attr({
-			target: '_blank',
-			href: '/doc/OUARRICH_SAID.pdf'
+			target: "_blank",
+			href: "/doc/OUARRICH_SAID.pdf"
 		});
-
 	}
-
-
 })(this);
