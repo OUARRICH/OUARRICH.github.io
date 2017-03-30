@@ -15,11 +15,11 @@
 		/* download Pdf and docx version of CV*/
 		$("a#cv_docx").attr({
 			target: "_blank",
-			href: "/doc/OUARRICH SAID.docx"
+			href: "/doc/OUARRICH_SAID.docx"
 		});
 		$("a#cv_pdf").attr({
 			target: "_blank",
-			href: "/doc/OUARRICH_SAID.pdf"
+			href: "/doc/OUARRICH_Said.pdf"
 		});
 	}
 })(this);
