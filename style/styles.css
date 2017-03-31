@@ -141,13 +141,6 @@ a {
 .cv .skills ul li {
   line-height: 1.7em;
 }
-.cv .skills .list_1 {
-  margin-left: 1.5em;
-  float: left;
-}
-.cv .skills .list_2 {
-  margin-left: 54%;
-}
 .cv .education span {
   color: #777;
   font-size: 14px;
@@ -172,6 +165,12 @@ a {
     border-radius: 5px;
   }
 }
+@media screen and (max-width: 470px) {
+  .cv .skills .small {
+    width: 100%;
+    padding-top: 0;
+  }
+}
 @media screen and (max-width: 550px) {
   .header-wrapper {
     text-align: center;
@@ -187,6 +186,10 @@ a {
   }
   .header-wrapper .social li {
     margin-left: 27px;
+  }
+  .cv section p,
+  .cv section ul {
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 550px) {
