@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "start": "http-server -a localhost -p 8000",
+    "start": "http-server -a localhost -p 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/OUARRICH/OUARRICH.github.io/issues"
   },
-  "homepage": "https://github.com/OUARRICH/OUARRICH.github.io"
+  "homepage": "https://github.com/OUARRICH/OUARRICH.github.io",
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-eslint": "^4.0.0",
+    "gulp-less": "latest",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "latest",
+    "gulp-uglifycss": "^1.0.8",
+    "gulp-util": "latest"
+  }
 }

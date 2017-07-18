@@ -33,13 +33,13 @@
   opacity: 1;
 }
 .header-wrapper .social #github {
-  background-image: url(../img/github.png);
+  background-image: url(../../img/github.png);
 }
 .header-wrapper .social #linkedin {
-  background-image: url(../img/linkedin.png);
+  background-image: url(../../img/linkedin.png);
 }
 .header-wrapper .social #google {
-  background-image: url(../img/google.png);
+  background-image: url(../../img/google.png);
 }
 .footer {
   text-align: center;
