@@ -18,10 +18,12 @@
 .header-wrapper .social {
   margin-top: 11px;
 }
-.header-wrapper .social li {
+.header-wrapper .social .fix-size {
   display: inline-block;
   width: 50px;
   height: 50px;
+}
+.header-wrapper .social li {
   border-radius: 50%;
   margin-left: 15px;
   cursor: pointer;
@@ -158,7 +160,7 @@ a {
     margin: 20px 20px 20px 0;
     max-width: 33%;
     display: block;
-    background: url(http://placehold.it/164x180) no-repeat 0 0;
+    background: url(../../img/profile.jpg) no-repeat 0 0;
     background-size: 164px 180px;
     width: 164px;
     height: 180px;

@@ -1,7 +1,7 @@
 .header-wrapper{box-shadow:0 0 2em #a99d9d;z-index:1000;padding:17px 0}.header-wrapper .name,.header-wrapper .job{text-transform:lowercase}
 .header-wrapper .name{font-size:3.4em;font-family:Lobster,Georgia,Times,"Times New Roman",serif}
 .header-wrapper .job{font-size:22px;font-weight:500}.header-wrapper .social{margin-top:11px}
-.header-wrapper .social li{display:inline-block;width:50px;height:50px;border-radius:50%;margin-left:15px;cursor:pointer;opacity:.4;background:no-repeat 0 0;background-size:50px 50px}
+.header-wrapper .social .fix-size{display:inline-block;width:50px;height:50px}.header-wrapper .social li{border-radius:50%;margin-left:15px;cursor:pointer;opacity:.4;background:no-repeat 0 0;background-size:50px 50px}
 .header-wrapper .social li:hover{opacity:1}.header-wrapper .social #github{background-image:url(../../img/github.png)}
 .header-wrapper .social #linkedin{background-image:url(../../img/linkedin.png)}.header-wrapper .social #google{background-image:url(../../img/google.png)}
 .footer{text-align:center;height:50px;background-color:black;line-height:5rem;font-size:1.25em;color:white}
@@ -14,7 +14,7 @@ legend{display:none}a{text-decoration:none}.cv section{margin:3em 0}.cv section 
 .cv section div h5{font-size:17px;color:#444}.cv section div h6{color:#777;font-size:14px}
 .cv .skills ul{list-style-type:disc}.cv .skills ul li{line-height:1.7em}.cv .education span{color:#777;font-size:14px}
 .cv .education span .schools{font-weight:bold;font-size:19px}.cv .employment-history .history_detail{margin-top:0}
-@media screen and (min-width:800px){.cv .perso-prof .portrait-photo{float:left;margin:20px 20px 20px 0;max-width:33%;display:block;background:url(http://placehold.it/164x180) no-repeat 0 0;background-size:164px 180px;width:164px;height:180px;border-radius:5px}
+@media screen and (min-width:800px){.cv .perso-prof .portrait-photo{float:left;margin:20px 20px 20px 0;max-width:33%;display:block;background:url(../../img/profile.jpg) no-repeat 0 0;background-size:164px 180px;width:164px;height:180px;border-radius:5px}
 }@media screen and (max-width:470px){.cv .skills .small{width:100%;padding-top:0}
 }@media screen and (max-width:550px){.header-wrapper{text-align:center}.header-wrapper .col-xs-6{width:100%}
 .header-wrapper .col-xs-6 .name{font-size:4.4em}.header-wrapper .col-xs-6 .job{font-size:27px}
