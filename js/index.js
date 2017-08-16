@@ -8,7 +8,7 @@
 		/*Init the current year in the footer*/
 		date = date.getFullYear();
 		currentYear.innerHTML = date;
-
+		
 		/* download Pdf and docx version of CV*/
 		$('a#cv_docx').attr({
 			target: '_blank',

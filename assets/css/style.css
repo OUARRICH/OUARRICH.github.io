@@ -35,13 +35,13 @@
   opacity: 1;
 }
 .header-wrapper .social #github {
-  background-image: url(../../img/github.png);
+  background-image: url(../img/github.png);
 }
 .header-wrapper .social #linkedin {
-  background-image: url(../../img/linkedin.png);
+  background-image: url(../img/linkedin.png);
 }
 .header-wrapper .social #google {
-  background-image: url(../../img/google.png);
+  background-image: url(../img/google.png);
 }
 .footer {
   text-align: center;
@@ -160,7 +160,7 @@ a {
     margin: 20px 20px 20px 0;
     max-width: 33%;
     display: block;
-    background: url(../../img/profile.jpg) no-repeat 0 0;
+    background: url(../img/profile.jpg) no-repeat 0 0;
     background-size: 164px 180px;
     width: 164px;
     height: 180px;

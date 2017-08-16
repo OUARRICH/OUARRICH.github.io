@@ -2,8 +2,8 @@
 .header-wrapper .name{font-size:3.4em;font-family:Lobster,Georgia,Times,"Times New Roman",serif}
 .header-wrapper .job{font-size:22px;font-weight:500}.header-wrapper .social{margin-top:11px}
 .header-wrapper .social .fix-size{display:inline-block;width:50px;height:50px}.header-wrapper .social li{border-radius:50%;margin-left:15px;cursor:pointer;opacity:.4;background:no-repeat 0 0;background-size:50px 50px}
-.header-wrapper .social li:hover{opacity:1}.header-wrapper .social #github{background-image:url(../../img/github.png)}
-.header-wrapper .social #linkedin{background-image:url(../../img/linkedin.png)}.header-wrapper .social #google{background-image:url(../../img/google.png)}
+.header-wrapper .social li:hover{opacity:1}.header-wrapper .social #github{background-image:url(../img/github.png)}
+.header-wrapper .social #linkedin{background-image:url(../img/linkedin.png)}.header-wrapper .social #google{background-image:url(../img/google.png)}
 .footer{text-align:center;height:50px;background-color:black;line-height:5rem;font-size:1.25em;color:white}
 html,body,div,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,ol,ul,li,form,fieldset,legend,label,table,header,footer,nav,section{margin:0;padding:0;border:0}
 ol,ul{list-style:none}header,footer,nav,section,article,hgroup,figure{display:block}
@@ -14,7 +14,7 @@ legend{display:none}a{text-decoration:none}.cv section{margin:3em 0}.cv section 
 .cv section div h5{font-size:17px;color:#444}.cv section div h6{color:#777;font-size:14px}
 .cv .skills ul{list-style-type:disc}.cv .skills ul li{line-height:1.7em}.cv .education span{color:#777;font-size:14px}
 .cv .education span .schools{font-weight:bold;font-size:19px}.cv .employment-history .history_detail{margin-top:0}
-@media screen and (min-width:800px){.cv .perso-prof .portrait-photo{float:left;margin:20px 20px 20px 0;max-width:33%;display:block;background:url(../../img/profile.jpg) no-repeat 0 0;background-size:164px 180px;width:164px;height:180px;border-radius:5px}
+@media screen and (min-width:800px){.cv .perso-prof .portrait-photo{float:left;margin:20px 20px 20px 0;max-width:33%;display:block;background:url(../img/profile.jpg) no-repeat 0 0;background-size:164px 180px;width:164px;height:180px;border-radius:5px}
 }@media screen and (max-width:470px){.cv .skills .small{width:100%;padding-top:0}
 }@media screen and (max-width:550px){.header-wrapper{text-align:center}.header-wrapper .col-xs-6{width:100%}
 .header-wrapper .col-xs-6 .name{font-size:4.4em}.header-wrapper .col-xs-6 .job{font-size:27px}
