@@ -34,5 +34,8 @@
     "gulp-uglifycss": "^1.0.8",
     "gulp-util": "latest",
     "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }
