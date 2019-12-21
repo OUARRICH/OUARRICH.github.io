@@ -1,41 +1,21 @@
 {
-  "name": "OUARRICH.github.io",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "http-server -a localhost -p 8000",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OUARRICH/OUARRICH.github.io.git"
-  },
-  "author": "",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/OUARRICH/OUARRICH.github.io/issues"
-  },
-  "homepage": "https://github.com/OUARRICH/OUARRICH.github.io",
-  "devDependencies": {
-    "del": "^3.0.0",
-    "gulp": "latest",
-    "gulp-concat": "latest",
-    "gulp-connect": "latest",
-    "gulp-eslint": "^4.0.0",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-inject": "^4.2.0",
-    "gulp-less": "latest",
-    "gulp-load-plugins": "^1.5.0",
-    "gulp-open": "^2.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-task-listing": "^1.0.1",
-    "gulp-uglify": "latest",
-    "gulp-uglifycss": "^1.0.8",
-    "gulp-util": "latest",
-    "wiredep": "^4.0.0"
-  },
+  "name": "ouarrich_pages",
+  "homepage": "http://ouarrich.github.io/",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "http-server": "^0.11.1"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
