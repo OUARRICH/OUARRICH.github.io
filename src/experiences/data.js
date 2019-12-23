@@ -1,5 +1,6 @@
 const experiences = [
     {
+        id:"1",
         role: 'Développeur Front ReactJS',
         client: 'AXA BANQUE',
         startDate: '05/2019',
@@ -26,6 +27,7 @@ const experiences = [
         fullDescription: ''
     },
     {
+        id:"2",
         role: 'Développeur FullStack JS - ReactJS / Node JS',
         client: 'BNP ASSET MANAGEMENT',
         startDate: '01/2019',
@@ -52,6 +54,7 @@ const experiences = [
         fullDescription: ''
     },
     {
+        id:"3",
         role: 'Développeur Angular / VueJS',
         client: 'GS1 FRANCE',
         startDate: '09/2018',
@@ -78,6 +81,7 @@ const experiences = [
         fullDescription: ''
     },
     {
+        id:"4",
         role: 'Développeur Full Stack React / C# .Net',
         client: 'AXA FRANCE',
         startDate: '11/2017',
@@ -106,6 +110,7 @@ const experiences = [
         fullDescription: ''
     },
     {
+        id:"5",
         role: 'Référent Technique AngularJS',
         client: 'ORANGE BANQUE',
         startDate: '12/2016',
@@ -139,6 +144,7 @@ const experiences = [
         fullDescription: ''
     },
     {
+        id:"6",
         role: 'Développeur AngularJS',
         client: 'PNB CIB',
         startDate: '05/2016',
@@ -167,6 +173,7 @@ const experiences = [
         fullDescription: ''
     },
     {
+        id:"7",
         role: 'Développeur AngularJS',
         client: 'SAGE SOFTWARE',
         startDate: '06/2013',
@@ -196,6 +203,7 @@ const experiences = [
         fullDescription: ''
     },
     {
+        id:"8",
         role: 'Développeur Angular / Node JS',
         startDate: '04/2019',
         endDate: '08/2019',

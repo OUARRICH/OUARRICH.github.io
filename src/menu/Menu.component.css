@@ -1,4 +1,5 @@
 .App__menu{
+    position: absolute;
     background-color: var(--lightGray);
     height: 100%;
     width: 220px;

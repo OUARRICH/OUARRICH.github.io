@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 import Menu from './menu';
-import Experience from './experiences';
+import Experiences from './experiences';
 
 import './App.css';
 
@@ -26,7 +26,7 @@ const App = () => {
           <i className="fas fa-bars"></i>
         </button>
         <div className="App__Content">
-          <Experience />
+          <Experiences />
         </div>
       </div>
     </div>

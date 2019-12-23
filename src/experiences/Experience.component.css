@@ -16,6 +16,20 @@
     font-size: 12px;
     color: var(--focusGray);
 }
+
 .Experience__head__client {
     display: inline-block;
+}
+
+.Experience__detail {
+    
+}
+
+/*Minor breakpoint for mobile: 600px*/
+@media screen and (max-width : 600px) {
+    .Experience__head{
+        flex-direction: column;
+        height: auto;
+        align-items: flex-start;
+    }
 }
