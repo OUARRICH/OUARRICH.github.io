@@ -13,7 +13,8 @@
 }
 
 .App__Content {
-
+    padding: 40px 220px;
+    width: 720px;
 }
 
 /**Tablet*/
@@ -23,4 +24,11 @@
 
 /* Mobile */
 @media screen and (max-width : 720px) {
+}
+
+/*Minor breakpoint for mobile: 360px*/
+@media screen and (max-width : 360px) {
+    .App__Content {
+        padding: 0;
+    }
 }

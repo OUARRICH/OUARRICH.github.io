@@ -1,6 +1,7 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 
-import Menu from './menu/Menu.component';
+import Menu from './menu';
+import Experience from './experiences';
 
 import './App.css';
 
@@ -25,7 +26,7 @@ const App = () => {
           <i className="fas fa-bars"></i>
         </button>
         <div className="App__Content">
-          <h1>Hi I am Said</h1>
+          <Experience />
         </div>
       </div>
     </div>
