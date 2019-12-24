@@ -1,0 +1,39 @@
+.App__menu{
+    position: absolute;
+    background-color: var(--lightGray);
+    height: 100%;
+    width: 220px;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.App__menu__item {
+    font-weight: bold;
+    line-height: 35px;
+    cursor: pointer;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.App__menu__item:hover{
+    background-color: #fff;
+    color: var(--blue);
+}
+
+.App__menu__item--selected{
+    border-left: 10px solid var(--blue);
+    background-color: #fff;
+    color: var(--blue);
+}
+
+.App__menu--open {
+    display: block;
+}
+
+.App__menu--close {
+    display: none;
+}
