@@ -19,12 +19,18 @@ const renderExperienceHead = (experience, onClickExperience) => (
 const renderExperienceDetail = (experience, selectedExperience) => (
     experience.id === selectedExperience && <div className="Experience__detail" key={`detail_${experience.id}`}>
             <p>{experience.shortDescription}</p>
+            <ul className="Experience__detail__bullets">
+                { experience.bulletPoints.map(bulletPoint => <li>{bulletPoint}</li>) } 
+            </ul>
+            <div>
+                <strong>Technologies: </strong>{ experience.technologies.map(item => `${item}, `)}
+            </div>
     </div>
 );
 
 const renderExperience = (experience, selectedExperience, onClickExperience) => {
     return (
-        <div key={experience.id}>
+        <div className="Experience" key={experience.id}>
             {renderExperienceHead(experience, onClickExperience)}
             {renderExperienceDetail(experience, selectedExperience)}
         </div>
