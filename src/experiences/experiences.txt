@@ -1,0 +1,5 @@
+PROJET IT Dashboard: 
+L’objectif du business case IT Dashboard est de produire un dashboard pour le pilotage des coûts informatiques du Groupe SG, sur la plate-forme Web ONE FINANCE. 
+1.	CONTEXTE
+DFIN/RFS réalise plusieurs fois au cours de l’année un dashboard dédié à la dépense IT pour tout le groupe SG, en analysant e budget, le réalisé et l’estimé, mais également les données de la trajectoire (budget pour les prochaines années). Ce dashboard est à destination de DGLE.
+Le process actuel pour collecter les données et réaliser le dashboard est entièrement manuel. Le dashboard final est actuellement réalisé sous excel. 
