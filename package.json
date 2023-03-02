@@ -9,7 +9,7 @@
     "react-burger-menu": "^2.6.13",
     "react-dom": "^16.12.0",
     "react-media-query-hoc": "^2.1.0",
-    "react-scripts": "0.9.5"
+    "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
